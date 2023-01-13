@@ -1,0 +1,23 @@
+{
+  "name": "iniciandocomnode",
+  "version": "1.0.0",
+  "description": "Primeiro Projeto 2022 Code Drops",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luipee/IniciandoComNode.git"
+  },
+  "author": "Luis Felipe Franco de Campos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luipee/IniciandoComNode/issues"
+  },
+  "homepage": "https://github.com/Luipee/IniciandoComNode#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
