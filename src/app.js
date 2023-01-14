@@ -1,4 +1,5 @@
 const express = require("express")
+const fs = require("fs")
 
 const { randomUUID } = require("crypto")
 const { response } = require("express")
@@ -18,6 +19,13 @@ app.post("/products" , (req , res) =>{
   }
 
   products.push(product)
+  fs.writeFile("products.json" , JSON.stringify(products), (err) =>{
+    if(err){
+      console.log(err)
+    } else {
+      console.log("Produto inserido")
+    }
+  })
 
   return res.json(product)
 })
@@ -52,6 +60,5 @@ app.delete("/products/:id", (req, res) => {
 
   }
 )
-
 app.listen( 4002, () => console.log("Server is running in port 4002"))
 

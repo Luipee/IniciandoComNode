@@ -4,7 +4,7 @@
   "description": "Primeiro Projeto 2022 Code Drops",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon app.js"
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Luipee/IniciandoComNode#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "i": "^0.3.7",
     "nodemon": "^2.0.20"
   }
 }
