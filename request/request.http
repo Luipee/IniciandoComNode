@@ -2,7 +2,7 @@ POST  http://localhost:4002/products
 Content-Type: application/json
 
 {
-  "name":"caneta lilás",
+  "name":"caderno 96 folhas",
   "price": "3.5"
 }
 

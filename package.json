@@ -4,7 +4,7 @@
   "description": "Primeiro Projeto 2022 Code Drops",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
